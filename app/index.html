@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{}}">
+    <meta name="author" content="Develpixel">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon">
+
+    <title>Tumbas - Multipurpose Business Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link href="styles/lib/font-awesome.css" rel="stylesheet">
+    <!-- Zocial CSS
+    <link href="css/lib/zocial.css" rel="stylesheet">
+    -->
+    <!-- Animated CSS-->
+    <link href="styles/lib/animate.css" rel="stylesheet">
+    <!-- OWL CSS-->
+    <link href="bower_components/owl.carousel/dist/assets/owl.carousel.css" rel="stylesheet">
+    <link href="bower_components/owl.carousel/dist/assets/owl.theme.css" rel="stylesheet">
+    <!-- Costumize Font C.SS -->
+    <link href="styles/lib/costumizefont.css" rel="stylesheet" type="text/css">
+    <!-- STYLE CSS -->
+    <link href="styles/style.css" rel="stylesheet">
+    <!-- Color Scheme CSS -->
+    <link href="styles/scheme/green.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="bower_components/html5shiv/dist/html5shiv.min.js"></script>
+      <script src="bower_components/respond/dest/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body ng-app="tmwApp">
+    <div class="outter" ng-controller="tmwHeaderCtrl">
+        <!-- BEGIN HEADER -->
+        <section class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="sitelogo-block">
+                            <div class="logo2">
+                                <a href="javascript:;">
+                                    <img src="images/ggn-logo.jpg" alt="">
+                                </a>
+                            <div class="titledesc">
+                                 <span>{{header.title}}</span>
+                            </div>
+
+                            </div>
+                            <!--/.logo-->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!--/.container -->
+        </section>
+        <!-- END HEADER -->
+        <!-- BEGIN NAVIGATION -->
+        <section class="navigation">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <nav class="navbar navbar-default" role="navigation">
+                            <div class="container-fluid">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                    <ul class="nav navbar-nav" >
+
+											<li class="dropdown" ng-repeat="category in header.subcategories" >
+
+												<a href class="dropdown-toggle" data-toggle="dropdown">{{category.name}}<b class="caret"></b></a>
+
+												<ul class="dropdown-menu">
+													<li ng-repeat="subcategory in category.subcategories"><a href="#/category/{{subcategory.id}}">{{subcategory.name}}</a></li>
+
+												</ul>
+
+											</li>
+
+									</ul>
+                                </div>
+                                <!-- /.navbar-collapse -->
+                            </div>
+                            <!-- /.container-fluid -->
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END NAVIGATION -->
+
+		<div ng-view></div>
+
+        <!-- BEGIN  TOP SLIDER -->
+
+        <footer>
+            <!-- WIDGET ABOUT -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="wdgt-about">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="images/logo-black.png" alt="" class="logo-bottom">
+                                </div>
+                                <div class="col-md-5">
+                                    <h3 class="wdgt-title">ABOUT US</h3>
+                                    <p>Vivamus sit amet libero turpis, non venenatis urna. In blandit, odio convallis suscipit venenatis, ante ipsum cursus augue.</p>
+                                    <a href="javascript:;" class="iconize">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                    <a href="javascript:;" class="iconize">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                    <a href="javascript:;" class="iconize">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                    <a href="javascript:;" class="iconize">
+                                        <i class="fa fa-rss"></i>
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <h3 class="wdgt-title">EMAIL SUBSCRIBE</h3>
+                                    <p>Sed blandit augue vitae augue scelerisque bibendum vivamus sit amet libero turpis.</p>
+                                    <form>
+                                        <input type="text" name="newsletter" class="input-black">
+                                        <input type="submit" name="submit" class="btn-black">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END WIDGET ABOUT -->
+            <!-- BEGIN WIDGET BOTTOM -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <section class="wdgt-bottom">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="widget-box">
+                                        <h3 class="wdgt-title">OPEN HOURS</h3>
+                                        <ul class="openhour">
+                                            <li class="openday">Monday</li>
+                                            <li class="opentime">12.00 AM &mdash; 10.12 PM</li>
+                                            <li class="openday">Tuesday</li>
+                                            <li class="opentime">07.00 AM &mdash; 10.20 AM</li>
+                                            <li class="opentime">REST</li>
+                                            <li class="opentime">02.00 PM &mdash; 09.31 PM</li>
+                                            <li class="openday">Sunday</li>
+                                            <li class="opentime">07.00 AM &mdash; 11.00 PM</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="widget-box">
+                                        <h3 class="wdgt-title">SHOP BY BRANDS</h3>
+                                        <ul class="wdgt-ul">
+                                            <li><a href="shop.html">Maroon Sky</a>
+                                            </li>
+                                            <li><a href="shop.html">Charlizseky</a>
+                                            </li>
+                                            <li><a href="shop.html">Alamanda Series</a>
+                                            </li>
+                                            <li><a href="shop.html">HUGO BOSS</a>
+                                            </li>
+                                            <li><a href="shop.html">Preminioz</a>
+                                            </li>
+                                            <li><a href="shop.html">Avalantzche</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="widget-box">
+                                        <h3 class="wdgt-title">MY ACCOUNT</h3>
+                                        <ul class="wdgt-ul">
+                                            <li><a href="javascript:;">My Account</a>
+                                            </li>
+                                            <li><a href="cart.html">Shopping Cart</a>
+                                            </li>
+                                            <li><a href="javascript:;">Privacy Policies</a>
+                                            </li>
+                                            <li><a href="javascript:;">Referral</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="widget-box">
+                                        <h3 class="wdgt-title">CONTACT</h3>
+                                        <p class="wdgt-address">
+                                            <strong>Housing Store</strong>
+                                            901 Cherry Ave, San Bruno, CA 94066, United States
+                                        </p>
+                                        <p class="wdgt-address">
+                                            <strong>Office</strong>
+                                            1600 Amphitheatre Pkwy, Mountain View, CA 94043, United States
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="shop-info">
+                            <p>Tumbas Business Multipurpose Template</p>
+                            <p>Powered by <a href="javascript:;">Bootstrap</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END WIDGET BOTTOM -->
+        </footer>
+        <!-- END FOOTER -->
+    </div>
+    <!--      -->
+    <!-- END OUTER -->
+    <!-- Waypoints JS
+    <script src="js/lib/waypoints.min.js"></script>
+    -->
+    <!-- OWL JS -->
+    <script src="bower_components/owl.carousel/dist/owl.carousel.min.js"></script>
+    <!-- JS For Menjual -->
+    <script src="scripts/main.js"></script>
+
+	  <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/es5-shim/es5-shim.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/json3/lib/json3.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+     <!-- build:js({.tmp,app}) scripts/scripts.js -->
+     <script src="scripts/app.js"></script>
+     <script src="scripts/controllers/main.js"></script>
+	 <script src="scripts/services/services.js"></script>
+     <!-- endbuild -->
+
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+<div class="topslider" ng-controller="CarouselCtrl">
+  <div class="carousel slide" >
+    <carousel interval="myInterval">
+      <slide ng-repeat="slide in slides" active="slide.active">
+        <img ng-src="{{slide.image}}" style="margin:auto;">
+        <div class="caption">
+			<div class=" slider-title animated fadeInDown delay1">{{slide.text}}</div>
+			<div class="hidden-xs delay2 slider-desc animated fadeIn">{{slide.desc}}</div>
+		</div>	
+      </slide>
+    </carousel>
+  </div>
+  
+</div>
+
+
+        <!-- BEGIN PROMO -->
+        <section class="promo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 hidden-sm hidden-xs">
+                        <div class="promo-box">
+                            <a href="javascript:;">
+                                <figure class="promo-img">
+                                    <img src="images/banner-top-3.jpg" alt="GET 50% OFF WHEN YOU SPEND $100">
+                                    <span class="promo-block"></span>
+                                </figure>
+                                <div class="promo-info">
+                                    <h3 class="promo-title">Roses</h3>
+                                    <p>&bowtie;</p>
+                                </div>
+                                <!--/.promo-info -->
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 ">
+                        <div class="promo-box">
+                            <a href="javascript:;">
+                                <figure class="promo-img">
+                                    <img src="images/banner-top-2.jpg" alt="GET 50% OFF WHEN YOU SPEND $100">
+                                    <span class="promo-block"></span>
+                                </figure>
+                                <div class="promo-info">
+                                    <h3 class="promo-title">Hanging Baskets</h3>
+                                    <p>
+                                        LIMITED TIME ONLY | USE CODE: TUMBAS</p>
+                                </div>
+                                <!--/.promo-info -->
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 ">
+                        <div class="promo-box">
+                            <a href="javascript:;">
+                                <figure class="promo-img">
+                                    <img src="images/banner-top-1.jpg" alt="GET 50% OFF WHEN YOU SPEND $100">
+                                    <span class="promo-block"></span>
+                                </figure>
+                                <div class="promo-info">
+                                    <h3 class="promo-title">Indoor Trees</h3>
+                                    <p>
+                                        LIMITED TIME ONLY | USE CODE: TUMBAS</p>
+                                </div>
+                                <!--/.promo-info -->
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END PROMO -->
+   

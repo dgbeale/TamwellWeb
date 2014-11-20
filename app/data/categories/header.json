@@ -1,0 +1,50 @@
+{
+  "id": "header",
+	"name": "Graeme's Garden Nursery",
+	"title": "For all your Gardening Needs",
+	"subcategories":
+	[
+	{
+		"name": "About Us"
+
+	},
+	{
+		"name": "Plants",
+		"subcategories":
+		[
+			{
+				"name":"Annual Bedding",
+				"id":"annbedding"
+			},
+			{
+				"name":"Perennials",
+				"id":"perennials"
+			},
+			{
+				"name":"Shrubs",
+				"id":"shrubs"
+			},
+			{
+				"name":"Grasses",
+				"id":"grasses"
+			}
+		]
+	},
+	{
+		"name": "Basket Plants"
+
+	},
+	{
+		"name": "Vegetables"
+	},
+	{
+		"name": "Seeds"
+	},
+	{
+		"name": "Growing Essentials"
+	},
+	{
+		"name": "Gardening Advice"
+	}
+	]
+}

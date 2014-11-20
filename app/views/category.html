@@ -1,0 +1,103 @@
+        <!-- DETAIL PRODUCT CONTENT -->
+        <section class="content-wrapper">
+            <div class="container">
+                 <div class="col-md-12">
+
+					<div class="row" >
+					   <div class="product-image">
+							 <img ng-src="{{category.bannerImage}}" class="img-responsive" alt="">
+							 <p>{{category.bannerImage}}</p>
+						</div>
+
+					</div>
+				</div>
+
+              <div class="col-md-12">
+
+                        <div class="row">
+                          <div class="col-md-4" ng-repeat="subcategory in category.subcategories">
+                                <div class="product-block">
+                                    <div class="product-image">
+                                        <a href="#/category/{{subcategory.id}}">
+                                            <figure class="product-display">
+                                                <img alt="" class=" product-mainpic" ng-src="{{subcategory.imageSmall}}" style="display: block;">
+                                                <img ng-src="images/product-4-h.jpg" alt="" class="product-secondpic">
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <div class="product-meta">
+                                        <div class="product-action">
+                                            <a href="javascript:;" class="addcart">
+                                                <i class="icon-basket"></i>
+                                                Add to cart
+                                            </a>
+                                            <!--
+                                    -->
+                                            <a href="javascript:;" class="wishlist">
+                                                <i class="fa fa-heart"></i>
+                                            </a>
+                                            <!--
+                                    -->
+                                            <a href="javascript:;" class="compare">
+                                                <i class="fa fa-retweet"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="product-info">
+                                        <a href="javascript:;">
+                                            <h5 class="product-name">{{subcategory.name}}</h5>
+                                        </a>
+                                        <div class="product-price">
+                                            <span>$250</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                          <div class="col-md-4" ng-repeat="product in category.products">
+                            <div class="product-block">
+                              <div class="product-image">
+                                <a href="#/product/{{product.id}}">
+                                  <figure class="product-display">
+                                    <img alt="" class=" product-mainpic" ng-src="{{product.imageSmall}}" style="display: block;">
+                                    <img src="images/product-4-h.jpg" alt="" class="product-secondpic">
+                                  </figure>
+                                </a>
+                              </div>
+                              <div class="product-meta">
+                                <div class="product-action">
+                                  <a href="javascript:;" class="addcart">
+                                    <i class="icon-basket"></i>
+                                    Add to cart
+                                  </a>
+                                  <!--
+                          -->
+                                  <a href="javascript:;" class="wishlist">
+                                    <i class="fa fa-heart"></i>
+                                  </a>
+                                  <!--
+                          -->
+                                  <a href="javascript:;" class="compare">
+                                    <i class="fa fa-retweet"></i>
+                                  </a>
+                                </div>
+                              </div>
+                              <div class="product-info">
+                                <a href="javascript:;">
+                                  <h5 class="product-name">{{product.name}}</h5>
+                                </a>
+                                <div class="product-price">
+                                  <span>{{product.price}}</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+
+                 </div>
+
+
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- END DETAIL PRODUCT CONTENT -->

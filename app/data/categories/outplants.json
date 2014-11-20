@@ -1,0 +1,10 @@
+{
+    "id": "outplants",
+	"name": "Outdoor Plants",
+	"description" : "Outdoor Plants",
+    "subcategories": {
+        "roses",
+        "tulips",
+		"daffodils"
+    }
+}

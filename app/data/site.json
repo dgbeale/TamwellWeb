@@ -1,0 +1,15 @@
+{
+    "title": "Graemes Angular Nursery", 
+    "slogan": "Fish for free !", 
+    "intro": "img/phones/motorola-xoom-with-wi-fi.0.jpg",
+	"plantCategories" : [
+		{
+		"name" : "Roses",
+		"url"	   : "lister.html"
+		},
+        {
+		"name" : "Fuscias",
+		"url"	   : "lister.html"
+		}
+	]
+}

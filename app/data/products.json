@@ -1,0 +1,37 @@
+{
+    "title": "Graemes Angular Nursery", 
+    "slogan": "Fish for free !", 
+    "intro": "img/phones/motorola-xoom-with-wi-fi.0.jpg",
+	"plantCategories" : [
+		{
+		"name" : "Roses",
+		"url"	   : "lister.html",
+		"products" : [
+			{
+			 name : "Buddleia davidii Nanho Purple",
+			 category : "
+			 scientific_name : "Buddleia davidii var. nanhoensis"
+			 description : " ",
+			 information : "Sweetly fragrant flowers on compact plants attract a profusion of butterflies to your garden. Stunning in perennial or mixed shrub plantings, or in large groupings.",
+			 blooming_season : " ",
+			 plant_habit : "Mounded, Upright" 
+			 height_from : 122,
+			 height_to : 152,
+			 spacing_from : 122,
+			 spacing_to : 183,
+			 width_from : 102,
+			 width_to 152,
+			 exposure : "Sun",
+			 largeImage :,
+			 
+			},
+			{
+			}
+		 ]
+		},
+        {
+		"name" : "Fuscias",
+		"url"	   : "lister.html"
+		}
+	]
+}
