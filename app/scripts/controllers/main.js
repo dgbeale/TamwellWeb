@@ -24,6 +24,13 @@ tmwControllers.controller('tmwHeaderCtrl', ['$scope', 'Category',
 	 });
   }]);
 
+   tmwControllers.controller('tmwProductCtrl', ['$scope', '$routeParams','Product',
+  function($scope, $routeParams, Product) {
+    $scope.product = Product.get({productId: $routeParams.productId}, function(product) {
+      // $scope.mainImageUrl = phone.images[0];
+    });
+  }]);
+
   tmwControllers.controller('CarouselCtrl', function ($scope) {
   $scope.myInterval = 5000;
   var slides = $scope.slides = [];
