@@ -87,7 +87,7 @@
 
 											<li class="dropdown" ng-repeat="category in header.subcategories" >
 
-												<a href class="dropdown-toggle" data-toggle="dropdown">{{category.name}}<b class="caret"></b></a>
+												<a href="#" class="dropdown-toggle" ng-init="isCollapsed = true" ng-click="isCollapsed = !isCollapsed">{{category.name}}<b class="caret"></b></a>
 
 												<ul class="dropdown-menu">
 													<li ng-repeat="subcategory in category.subcategories"><a href="#/category/{{subcategory.id}}">{{subcategory.name}}</a></li>
@@ -117,121 +117,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="wdgt-about">
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <img src="images/logo-black.png" alt="" class="logo-bottom">
-                                </div>
-                                <div class="col-md-5">
-                                    <h3 class="wdgt-title">ABOUT US</h3>
-                                    <p>Vivamus sit amet libero turpis, non venenatis urna. In blandit, odio convallis suscipit venenatis, ante ipsum cursus augue.</p>
-                                    <a href="javascript:;" class="iconize">
-                                        <i class="fa fa-facebook"></i>
-                                    </a>
-                                    <a href="javascript:;" class="iconize">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                    <a href="javascript:;" class="iconize">
-                                        <i class="fa fa-google-plus"></i>
-                                    </a>
-                                    <a href="javascript:;" class="iconize">
-                                        <i class="fa fa-rss"></i>
-                                    </a>
-                                </div>
-                                <div class="col-md-4">
-                                    <h3 class="wdgt-title">EMAIL SUBSCRIBE</h3>
-                                    <p>Sed blandit augue vitae augue scelerisque bibendum vivamus sit amet libero turpis.</p>
-                                    <form>
-                                        <input type="text" name="newsletter" class="input-black">
-                                        <input type="submit" name="submit" class="btn-black">
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- END WIDGET ABOUT -->
-            <!-- BEGIN WIDGET BOTTOM -->
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <section class="wdgt-bottom">
-                            <div class="row">
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="widget-box">
-                                        <h3 class="wdgt-title">OPEN HOURS</h3>
-                                        <ul class="openhour">
-                                            <li class="openday">Monday</li>
-                                            <li class="opentime">12.00 AM &mdash; 10.12 PM</li>
-                                            <li class="openday">Tuesday</li>
-                                            <li class="opentime">07.00 AM &mdash; 10.20 AM</li>
-                                            <li class="opentime">REST</li>
-                                            <li class="opentime">02.00 PM &mdash; 09.31 PM</li>
-                                            <li class="openday">Sunday</li>
-                                            <li class="opentime">07.00 AM &mdash; 11.00 PM</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="widget-box">
-                                        <h3 class="wdgt-title">SHOP BY BRANDS</h3>
-                                        <ul class="wdgt-ul">
-                                            <li><a href="shop.html">Maroon Sky</a>
-                                            </li>
-                                            <li><a href="shop.html">Charlizseky</a>
-                                            </li>
-                                            <li><a href="shop.html">Alamanda Series</a>
-                                            </li>
-                                            <li><a href="shop.html">HUGO BOSS</a>
-                                            </li>
-                                            <li><a href="shop.html">Preminioz</a>
-                                            </li>
-                                            <li><a href="shop.html">Avalantzche</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="widget-box">
-                                        <h3 class="wdgt-title">MY ACCOUNT</h3>
-                                        <ul class="wdgt-ul">
-                                            <li><a href="javascript:;">My Account</a>
-                                            </li>
-                                            <li><a href="cart.html">Shopping Cart</a>
-                                            </li>
-                                            <li><a href="javascript:;">Privacy Policies</a>
-                                            </li>
-                                            <li><a href="javascript:;">Referral</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="widget-box">
-                                        <h3 class="wdgt-title">CONTACT</h3>
-                                        <p class="wdgt-address">
-                                            <strong>Housing Store</strong>
-                                            901 Cherry Ave, San Bruno, CA 94066, United States
-                                        </p>
-                                        <p class="wdgt-address">
-                                            <strong>Office</strong>
-                                            1600 Amphitheatre Pkwy, Mountain View, CA 94043, United States
-                                        </p>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
                         <div class="shop-info">
-                            <p>Tumbas Business Multipurpose Template</p>
-                            <p>Powered by <a href="javascript:;">Bootstrap</a>
+                            <p>Graeme's Garden Nursery</p>
+                            <p>Designed by <a href="javascript:;">Tamwell</a>
                             </p>
                         </div>
                     </div>
