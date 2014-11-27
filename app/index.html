@@ -1,15 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html >
+<html lang="en" ng-app="tmwApp" ng-controller="tmwHeaderCtrl">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{{}}">
-    <meta name="author" content="Develpixel">
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon">
 
-    <title>Tumbas - Multipurpose Business Template</title>
+    <title>{{header.title}}</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -38,25 +37,31 @@
     <![endif]-->
 </head>
 
-<body ng-app="tmwApp">
-    <div class="outter" ng-controller="tmwHeaderCtrl">
+<body>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5473a2f81024b9d1" async="async"></script>
+
+    <div class="outter">
         <!-- BEGIN HEADER -->
         <section class="header">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-4">
                         <div class="sitelogo-block">
                             <div class="logo2">
                                 <a href="javascript:;">
                                     <img src="images/ggn-logo.jpg" alt="">
                                 </a>
-                            <div class="titledesc">
-                                 <span>{{header.title}}</span>
-                            </div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="col-sm-8">
+                      <div class="sitelogo-block">
 
+                            <div class="titledesc">
+                                 <span>{{header.caption}}</span>
                             </div>
-                            <!--/.logo-->
-                        </div>
+                      </div>
                     </div>
 
                 </div>

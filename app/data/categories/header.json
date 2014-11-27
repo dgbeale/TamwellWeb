@@ -1,7 +1,8 @@
 {
   "id": "header",
+  "title": "Graeme's Garden Nursery",
 	"name": "Graeme's Garden Nursery",
-	"title": "For all your Gardening Needs",
+	"caption": "The UK's Premier New Variety Specialist Nursery",
 	"subcategories":
 	[
 	{
@@ -35,7 +36,18 @@
 
 	},
 	{
-		"name": "Vegetables"
+		"name": "Vegetables",
+    "subcategories":
+    [
+      {
+        "name":"Tomatoes",
+        "id":"tomatoes"
+      },
+      {
+        "name":"Chillis",
+        "id":"chillis"
+      }
+    ]
 	},
 	{
 		"name": "Seeds"
@@ -46,5 +58,26 @@
 	{
 		"name": "Gardening Advice"
 	}
-	]
+	],
+  "promotions" :
+   [
+     {
+       "text": "This is a promotion 1 ",
+       "title": "This is a tile",
+       "image":  "images/banner-top-1.jpg",
+       "alt": "This is alt text "
+     },
+     {
+       "text": "This is a promotion 2 ",
+       "title": "This is a tile",
+       "image":  "images/banner-top-2.jpg",
+       "alt": "This is alt text "
+     },
+     {
+       "text": "This is a promotion 3 ",
+       "title": "This is a tile",
+       "image":  "images/banner-top-3.jpg",
+       "alt": "This is alt text "
+     }
+   ]
 }
