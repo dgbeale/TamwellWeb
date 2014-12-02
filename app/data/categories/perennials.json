@@ -4,38 +4,58 @@
 	"bannerTitle" : "Perennials",
 	"bannerDetails" : "shsj ldld dj sjwjwjjs ja js ajejej sjjsjs akdkkdd.",
 	"bannerImage" : "images/banner-1.jpg",
-  "subcategories": [
+  "contents": [
 		{
-			"name": "Subcat1" ,
-			"id": "subcat1",
+			"name": "Acanthus" ,
+      "type": "product"
+			"id": "acanthus",
       "imageSmall" : "images/small/subcat1.jpg"
 		},
-
     {
-      "name": "Subcat2" ,
-      "id": "subcat2",
+      "name": "Actae" ,
+      "id": "actae",
       "imageSmall" : "images/small/subcat2.jpg"
     },
-
     {
-        "name": "Subcat3" ,
-        "id": "subcat3",
+        "name": "Agastache" ,
+        "id": "agastache",
         "imageSmall" : "images/small/subcat3.jpg"
-    }
-   ],
-
-  "products": [
-    {
-      "name": "Product1" ,
-      "id": "product1",
-      "imageSmall" : "images/small/product1.jpg",
-      "price": "£4.50"
     },
     {
-      "name": "Product2" ,
-      "id": "product2",
-      "imageSmall" : "images/small/product2.jpg",
-      "price": "£4.99"
+      "name": "Ajuga" ,
+      "id": "ajuga",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Aralia" ,
+      "id": "aralia",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Athyrium" ,
+      "id": "athyrium",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Begonia" ,
+      "id": "begonia",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Bergenia" ,
+      "id": "bergenia",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Brunnera" ,
+      "id": "brunnera",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Campanula" ,
+      "id": "campanula",
+      "imageSmall" : "images/small/subcat3.jpg"
     }
-  ]
+   ]
+
 }

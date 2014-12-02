@@ -2497,3 +2497,14 @@ small {
     -moz-transform: rotateY(360deg);
     /* Firefox */
 }
+
+.banner {
+  max-width: 1170px;
+  padding: 0 0px;
+  position: relative;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  margin-right: 20px;
+
+}
