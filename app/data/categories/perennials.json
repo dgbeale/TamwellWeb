@@ -56,7 +56,6 @@
       "id": "campanula",
       "imageSmall" : "images/small/subcat3.jpg"
     },
-
     {
       "name": "Carex" ,
       "id": "carex",
@@ -88,16 +87,191 @@
       "imageSmall" : "images/small/subcat3.jpg"
     },
     {
-      "name": "TEST" ,
-      "id": "TEST",
+      "name": "Echinacea" ,
+      "id": "echinacea",
       "imageSmall" : "images/small/subcat3.jpg"
     },
     {
-      "name": "TEST" ,
-      "id": "TEST",
+      "name": "Echinacea supreme" ,
+      "id": "echinacea supreme",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Eucomis" ,
+      "id": "eucomis",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Eupatorium" ,
+      "id": "eupatorium",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Euphorbia" ,
+      "id": "euphorbia",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Fatsia" ,
+      "id": "fatsia",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Gaillardia" ,
+      "id": "gaillardia",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Geum" ,
+      "id": "geum",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Helleborus" ,
+      "id": "helleborus",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Heuchera" ,
+      "id": "heuchera",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Heucherella" ,
+      "id": "heucherella",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Hosta" ,
+      "id": "hosta",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Kniphofia" ,
+      "id": "kniphofia",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Leucanthemum" ,
+      "id": "leucanthemum",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Lithodora" ,
+      "id": "lithodora",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Lobelia" ,
+      "id": "lobelia",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Mukgenia Nova" ,
+      "id": "mukgenia Nova",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Nepeta" ,
+      "id": "nepeta",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Penstemon" ,
+      "id": "penstemon",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Petasites" ,
+      "id": "petasites",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Phygelius" ,
+      "id": "phygelius",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Plectranthus" ,
+      "id": "plectranthus",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Polygonatum" ,
+      "id": "polygonatum",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Plumonaria" ,
+      "id": "plumonaria",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Rodgersia" ,
+      "id": "rodgersia",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Rubus" ,
+      "id": "rubus",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Rudbeckia" ,
+      "id": "rudbeckia",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Salvia" ,
+      "id": "salvia",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Scabiosa" ,
+      "id": "scabiosa",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Sedum" ,
+      "id": "sedum",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Thalictrum" ,
+      "id": "thalictrum",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Tiarella" ,
+      "id": "tiarella",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Tolmiea" ,
+      "id": "tolmiea",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Verbascum" ,
+      "id": "verbascum",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Veronica" ,
+      "id": "veronica",
+      "imageSmall" : "images/small/subcat3.jpg"
+    },
+    {
+      "name": "Viola" ,
+      "id": "Viola",
       "imageSmall" : "images/small/subcat3.jpg"
     }
+
+
 
    ]
 
 }
+
+
+
