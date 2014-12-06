@@ -7,8 +7,21 @@
 	[
 	{
 		"name": "About Us",
-    "url": "about"
-
+    "subcategories":
+      [
+        {
+          "name": "About Us",
+          "id": "about"
+        },
+        {
+          "name": "Find Us",
+          "id": "findus"
+        },
+        {
+          "name": "Contact Us",
+          "id": "contactus"
+        }
+      ]
 	},
 	{
 		"name": "Plants",
