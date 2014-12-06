@@ -45,7 +45,6 @@
         <section class="header">
             <div class="container">
                 <div class="row">
-                  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5473a2f81024b9d1" async="async"></script>
 
                   <div class="col-sm-4">
                         <div class="sitelogo-block">
@@ -91,18 +90,18 @@
                                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                     <ul class="nav navbar-nav" >
 
-											<li class="dropdown" ng-repeat="category in header.subcategories" >
+										                  	<li class="dropdown" ng-repeat="category in header.subcategories" >
 
-												<a href="#" class="dropdown-toggle" ng-init="isCollapsed = true" ng-click="isCollapsed = !isCollapsed">{{category.name}}<b class="caret"></b></a>
+                                          <a href="#" class="dropdown-toggle" ng-init="isCollapsed = true" ng-click="isCollapsed = !isCollapsed">{{category.name}}<b class="caret"></b></a>
 
-												<ul class="dropdown-menu">
-													<li ng-repeat="subcategory in category.subcategories"><a href="#/category/{{subcategory.id}}">{{subcategory.name}}</a></li>
+                                          <ul class="dropdown-menu">
+                                                    <li ng-repeat="subcategory in category.subcategories"><a href="#/category/{{subcategory.id}}">{{subcategory.name}}</a></li>
 
-												</ul>
+                                          </ul>
 
-											</li>
+								                  			</li>
 
-									</ul>
+									                  </ul>
                                 </div>
                                 <!-- /.navbar-collapse -->
                             </div>

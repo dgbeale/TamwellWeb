@@ -24,5 +24,9 @@ $routeProvider.
   when('/product/:productId', {
     templateUrl: 'views/productDetail.html',
     controller: 'tmwProductCtrl'
+  }).
+  when('/about', {
+    templateUrl: 'views/about.html'
   });
+
 }]);

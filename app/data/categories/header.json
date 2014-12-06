@@ -6,7 +6,8 @@
 	"subcategories":
 	[
 	{
-		"name": "About Us"
+		"name": "About Us",
+    "url": "about"
 
 	},
 	{
