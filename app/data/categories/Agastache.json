@@ -1,22 +1,82 @@
 {
   "id": "Agastache",
   "name": "Agastache",
-  "bannerTitle" : "Agastache",
-  "bannerDetails" : "shsj ldld dj sjwjwjjs ja js ajejej sjjsjs akdkkdd.",
-  "bannerImage" : "images/banner-1.jpg",
+  "bannerTitle": "Agastache",
+  "bannerDetails": "Agastache",
+  "bannerImage": "images/banner-1.jpg",
   "contents": [
     {
-      "name": "Test" ,
-      "id": "Test",
-      "imageSmall" : "images/ggn/Acanthus.jpg"
-    },
-    {
-      "name": "Test" ,
-      "id": "Test",
-      "imageSmall" : "images/ggn/Actaea.jpg"
-    },
-    {
-      "name": "Test",
+      "name": "Agastache 'Blue Boa'",
       "id": "Test",
       "imageSmall": "images/ggn/Agastache.jpg"
     },
+    {
+      "name": "Agastache 'Cotton Candy'",
+      "id": "Test",
+      "imageSmall": "images/ggn/Agastache.jpg"
+    },
+    {
+      "name": "Agastache 'Kudos Ambrosia'",
+      "id": "Test",
+      "imageSmall": "images/ggn/Agastache.jpg"
+    },
+    {
+      "name": "Agastache 'Kudos Coral' ",
+      "id": "Test",
+      "imageSmall": "images/ggn/Agastache.jpg"
+    },
+    {
+      "name": "Agastache 'Kudos Gold' ",
+      "id": "Test",
+      "imageSmall": "images/ggn/Agastache.jpg"
+    },
+    {
+      "name": "Agastache 'Kudos Mandarin' ",
+      "id": "Test",
+      "imageSmall": "images/ggn/Agastache.jpg"
+    },
+    {
+      "name": "Agastache 'Kudos Silver Blue' ",
+      "id": "Test",
+      "imageSmall": "images/ggn/Agastache.jpg"
+    },
+    {
+      "name": "Agastache 'Raspberry summer' ",
+      "id": "Test",
+      "imageSmall": "images/ggn/Agastache.jpg"
+    },
+    {
+      "name": "Agastache 'Summer Fiesta' ",
+      "id": "Test",
+      "imageSmall": "images/ggn/Agastache.jpg"
+    },
+    {
+      "name": "Agastache 'Summer Glow' ",
+      "id": "Test",
+      "imageSmall": "images/ggn/Agastache.jpg"
+    },
+    {
+      "name": "Agastache 'Summer Love' ",
+      "id": "Test",
+      "imageSmall": "images/ggn/Agastache.jpg"
+    },
+    {
+      "name": "Agastache 'Summer Sky' ",
+      "id": "Test",
+      "imageSmall": "images/ggn/Agastache.jpg"
+    },
+    {
+      "name": "Agastache 'Summer Sunset' ",
+      "id": "Test",
+      "imageSmall": "images/ggn/Agastache.jpg"
+    },
+    {
+      "name": "Agastache 'Violet Vision' ",
+      "id": "Test",
+      "imageSmall": "images/ggn/Agastache.jpg"
+    }
+
+
+
+  ]
+}
