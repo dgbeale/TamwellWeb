@@ -17,20 +17,24 @@
               <div class="col-md-12">
 
                         <div class="row">
-                          <div class="col-md-4" ng-repeat="subcategory in category.contents">
+                          <div class="col-xs-6 col-md-4 col-lg-3" ng-repeat="subcategory in category.contents">
                                 <div class="product-block">
                                     <div class="product-image">
                                         <a href="#/category/{{subcategory.id}}">
                                             <figure class="product-display">
-                                                <img alt="" class=" product-mainpic" ng-src="{{subcategory.imageSmall}}" style="display: block;">
-                                                <img ng-src="images/product-4-h.jpg" alt="" class="product-secondpic">
+                                                <img alt="" class="img-responsive" ng-src="{{subcategory.imageSmall}}"  style="display: block;">
+
                                             </figure>
                                         </a>
                                     </div>
-                                    <div class="product-info">
-                                        <a href="javascript:;">
-                                            <h5 class="product-name">{{subcategory.name}}</h5>
-                                        </a>
+
+                                    <div class="product-meta">
+
+                                       <div class="product-action">
+
+                                         <h5 class="product-name">{{subcategory.name}}</h5>
+
+                                      </div>
                                     </div>
                                 </div>
                             </div>
