@@ -8,261 +8,313 @@
 		{
 			"name": "Acanthus " ,
 			"id": "acanthus",
+      "type": "category",
       "imageSmall" : "images/ggn/Acanthus.jpg"
 		},
     {
       "name": "Actaea" ,
       "id": "actaea",
+      "type": "category",
       "imageSmall" : "images/ggn/Actaea.jpg"
     },
     {
         "name": "Agastache" ,
         "id": "agastache",
+      "type": "category",
         "imageSmall" : "images/ggn/Agastache/Agastache.jpg"
     },
     {
       "name": "Ajuga" ,
       "id": "ajuga",
+      "type": "category",
       "imageSmall" : "images/ggn/Ajuga.jpg"
     },
     {
       "name": "Aralia" ,
       "id": "aralia",
+      "type": "category",
       "imageSmall" : "images/ggn/Aralia.jpg"
     },
     {
       "name": "Athyrium" ,
       "id": "athyrium",
+      "type": "category",
       "imageSmall" : "images/ggn/Athyrium.jpg"
     },
     {
       "name": "Begonia" ,
       "id": "begonia",
+      "type": "category",
       "imageSmall" : "images/ggn/Begonia.jpg"
     },
     {
       "name": "Bergenia" ,
       "id": "bergenia",
+      "type": "category",
       "imageSmall" : "images/ggn/Bergenia.jpg"
     },
     {
       "name": "Brunnera" ,
       "id": "brunnera",
+      "type": "category",
       "imageSmall" : "images/ggn/Brunnera.jpg"
     },
     {
       "name": "Campanula" ,
       "id": "campanula",
+      "type": "category",
       "imageSmall" : "images/ggn/Campanula.jpg"
     },
     {
       "name": "Carex" ,
       "id": "carex",
+      "type": "category",
       "imageSmall" : "images/ggn/Carex.jpg"
     },
     {
       "name": "Cistus" ,
       "id": "cistus",
+      "type": "category",
       "imageSmall" : "images/ggn/Cistus.jpg"
     },
     {
       "name": "Coreopsis" ,
       "id": "coreopsis",
+      "type": "category",
       "imageSmall" : "images/ggn/Coreopsis.jpg"
     },
     {
       "name": "Corydalis" ,
       "id": "corydalis",
+      "type": "category",
       "imageSmall" : "images/ggn/Corydalis.jpg"
     },
     {
       "name": "Crocosmia" ,
       "id": "crocosmia",
+      "type": "category",
       "imageSmall" : "images/ggn/Crocosmia.jpg"
     },
     {
       "name": "Dicentra" ,
       "id": "dicentra",
+      "type": "category",
       "imageSmall" : "images/ggn/Dicentra.jpg"
     },
     {
       "name": "Echinacea" ,
       "id": "echinacea",
+      "type": "category",
       "imageSmall" : "images/ggn/Echinacea.jpg"
     },
     {
       "name": "Echinacea supreme" ,
       "id": "echinacea supreme",
+      "type": "category",
       "imageSmall" : "images/ggn/Echinacea_Supreme.jpg"
     },
     {
       "name": "Eucomis" ,
       "id": "eucomis",
+      "type": "category",
       "imageSmall" : "images/ggn/Eucomis.jpg"
     },
     {
       "name": "Eupatorium" ,
       "id": "eupatorium",
+      "type": "category",
       "imageSmall" : "images/ggn/Eupatorium.jpg"
     },
     {
       "name": "Euphorbia" ,
       "id": "euphorbia",
+      "type": "category",
       "imageSmall" : "images/ggn/Euphorbia.jpg"
     },
     {
       "name": "Fatsia" ,
       "id": "fatsia",
+      "type": "category",
       "imageSmall" : "images/ggn/Fatsia.jpg"
     },
     {
       "name": "Gaillardia" ,
       "id": "gaillardia",
+      "type": "category",
       "imageSmall" : "images/ggn/Gaillardia.jpg"
     },
     {
       "name": "Geum" ,
       "id": "geum",
+      "type": "category",
       "imageSmall" : "images/ggn/Geum.jpg"
     },
     {
       "name": "Helleborus" ,
       "id": "helleborus",
+      "type": "category",
       "imageSmall" : "images/ggn/Helleborus.jpg"
     },
     {
       "name": "Heuchera" ,
       "id": "heuchera",
+      "type": "category",
       "imageSmall" : "images/ggn/Heuchera.jpg"
     },
     {
       "name": "Heucherella" ,
       "id": "heucherella",
+      "type": "category",
       "imageSmall" : "images/ggn/Heucherella.jpg"
     },
     {
       "name": "Hosta" ,
       "id": "hosta",
+      "type": "category",
       "imageSmall" : "images/ggn/Hosta.jpg"
     },
     {
       "name": "Kniphofia" ,
       "id": "kniphofia",
+      "type": "category",
       "imageSmall" : "images/ggn/Kniphofia.jpg"
     },
     {
       "name": "Leucanthemum" ,
       "id": "leucanthemum",
+      "type": "category",
       "imageSmall" : "images/ggn/Leucanthemum.jpg"
     },
     {
       "name": "Lithodora" ,
       "id": "lithodora",
+      "type": "category",
       "imageSmall" : "images/ggn/Lithodora.jpg"
     },
     {
       "name": "Lobelia" ,
       "id": "lobelia",
+      "type": "category",
       "imageSmall" : "images/ggn/Lobelia.jpg"
     },
     {
       "name": "Mukgenia Nova" ,
       "id": "mukgenia Nova",
+      "type": "category",
       "imageSmall" : "images/ggn/Mukgenia.jpg"
     },
     {
       "name": "Nepeta" ,
       "id": "nepeta",
+      "type": "category",
       "imageSmall" : "images/ggn/Nepeta.jpg"
     },
     {
       "name": "Penstemon" ,
       "id": "penstemon",
+      "type": "category",
       "imageSmall" : "images/ggn/Penstemon.jpg"
     },
     {
       "name": "Petasites" ,
       "id": "petasites",
+      "type": "category",
       "imageSmall" : "images/ggn/Petasites.jpg"
     },
     {
       "name": "Phygelius" ,
       "id": "phygelius",
+      "type": "category",
       "imageSmall" : "images/ggn/Phygelius.jpg"
     },
     {
       "name": "Plectranthus" ,
       "id": "plectranthus",
+      "type": "category",
       "imageSmall" : "images/ggn/Plectranthus.jpg"
     },
     {
       "name": "Polygonatum" ,
       "id": "polygonatum",
+      "type": "category",
       "imageSmall" : "images/ggn/Polygonatum.jpg"
     },
     {
       "name": "Plumonaria" ,
       "id": "plumonaria",
+      "type": "category",
       "imageSmall" : "images/ggn/Pulmonaria.jpg"
     },
     {
       "name": "Rodgersia" ,
       "id": "rodgersia",
+      "type": "category",
       "imageSmall" : "images/ggn/Rodgersia.jpg"
     },
     {
       "name": "Rubus" ,
       "id": "rubus",
+      "type": "category",
       "imageSmall" : "images/ggn/Rubus.jpg"
     },
     {
       "name": "Rudbeckia" ,
       "id": "rudbeckia",
+      "type": "category",
       "imageSmall" : "images/ggn/Rudbeckia.jpg"
     },
     {
       "name": "Salvia" ,
       "id": "salvia",
+      "type": "category",
       "imageSmall" : "images/ggn/Salvia.jpg"
     },
     {
       "name": "Scabiosa" ,
       "id": "scabiosa",
+      "type": "category",
       "imageSmall" : "images/ggn/Scabiosa.jpg"
     },
     {
       "name": "Sedum" ,
       "id": "sedum",
+      "type": "category",
       "imageSmall" : "images/ggn/Sedum.jpg"
     },
     {
       "name": "Thalictrum" ,
       "id": "thalictrum",
+      "type": "category",
       "imageSmall" : "images/ggn/Thalictrum.jpg"
     },
     {
       "name": "Tiarella" ,
       "id": "tiarella",
+      "type": "category",
       "imageSmall" : "images/ggn/Tiarella.jpg"
     },
     {
       "name": "Tolmiea" ,
       "id": "tolmiea",
+      "type": "category",
       "imageSmall" : "images/ggn/Tolmiea.jpg"
     },
     {
       "name": "Verbascum" ,
       "id": "verbascum",
+      "type": "category",
       "imageSmall" : "images/ggn/Verbascum.jpg"
     },
     {
       "name": "Veronica" ,
       "id": "veronica",
+      "type": "category",
       "imageSmall" : "images/ggn/Veronica.jpg"
     },
     {
       "name": "Viola" ,
       "id": "Viola",
+      "type": "category",
       "imageSmall" : "images/ggn/Viola.jpg"
     }
 

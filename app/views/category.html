@@ -20,7 +20,7 @@
                           <div class="col-xs-6 col-md-4 col-lg-3" ng-repeat="subcategory in category.contents">
                                 <div class="product-block">
                                     <div class="product-image">
-                                        <a href="#/category/{{subcategory.id}}">
+                                      <a href=“#/{{subcategory.type}}/{{subcategory.id}}">
                                             <figure class="product-display">
                                                 <img alt="" class="img-responsive" ng-src="{{subcategory.imageSmall}}"  style="display: block;">
 
