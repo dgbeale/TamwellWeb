@@ -14,66 +14,79 @@
     {
       "name": "Agastache 'Cotton Candy'",
       "id": "cottoncandy",
+      "type": "product",
       "imageSmall": "images/ggn/Agastache/CottonCandy.jpg"
     },
     {
       "name": "Agastache 'Kudos Ambrosia'",
       "id": "kudosambrosia",
+      "type": "product",
       "imageSmall": "images/ggn/Agastache/KudosAmbrosia.jpg"
     },
     {
       "name": "Agastache 'Kudos Coral' ",
       "id": "kudoscoral",
+      "type": "product",
       "imageSmall": "images/ggn/Agastache/KudosCoral.jpg"
     },
     {
       "name": "Agastache 'Kudos Gold' ",
       "id": "kudosgold",
+      "type": "product",
       "imageSmall": "images/ggn/Agastache/KudosGold.jpg"
     },
     {
       "name": "Agastache 'Kudos Mandarin' ",
       "id": "kudosmandarin",
+      "type": "product",
       "imageSmall": "images/ggn/Agastache/KudosMandarin.jpg"
     },
     {
       "name": "Agastache 'Kudos Silver Blue' ",
       "id": "silverblue",
+      "type": "product",
       "imageSmall": "images/ggn/Agastache/KudosSilverBlue.jpg"
     },
     {
       "name": "Agastache 'Raspberry summer' ",
       "id": "raspberrysummer",
+      "type": "product",
       "imageSmall": "images/ggn/Agastache/RaspberrySummer.jpg"
     },
     {
       "name": "Agastache 'Summer Fiesta' ",
       "id": "summerfiesta",
+      "type": "product",
       "imageSmall": "images/ggn/Agastache/SummerFiesta.jpg"
     },
     {
       "name": "Agastache 'Summer Glow' ",
       "id": "summerglow",
+      "type": "product",
       "imageSmall": "images/ggn/Agastache/SummerGlow.jpg"
     },
     {
       "name": "Agastache 'Summer Love' ",
       "id": "summerlove",
+      "type": "product",
       "imageSmall": "images/ggn/Agastache/SummerLove.jpg"
     },
     {
       "name": "Agastache 'Summer Sky' ",
       "id": "summersky",
+      "type": "product",
       "imageSmall": "images/ggn/Agastache/SummerSky.jpg"
     },
     {
       "name": "Agastache 'Summer Sunset' ",
       "id": "summersunset",
+      "type": "product",
       "imageSmall": "images/ggn/Agastache/SummerSunset.jpg"
     },
     {
       "name": "Agastache 'Violet Vision' ",
       "id": "violetvision",
+      "type": "product",
       "imageSmall": "images/ggn/Agastache/VioletVision.jpg"
     }
 
