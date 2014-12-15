@@ -35,9 +35,7 @@
                                 </ul>
                             </div>
                             <div class="product-desc">
-                                <p>
-                                    {{product.description}}
-                                </p>
+
                                 <ul class="nav nav-tabs">
                                     <li class="active"><a href="#desc" data-toggle="tab">Description</a>
                                     </li>
@@ -54,14 +52,17 @@
                                             <strong>Item Description</strong>
                                         </p>
                                         <hr/>
-                                        <p>With the use of an angular tag we should be able to link to the description UI to auto populate this section?</p>
-                                        <p> Blank </p>
-                                        <blockquote>
+                                        <p>{{product.description}}</p>
+                                            <strong>Soil:</strong>
+
+                                      <p>{{product.soil}}</p>
+                                        <!-- <blockquote>
                                             <p>Latin latin latin</p>
                                             <footer>Someone famous in
                                                 <cite title="Source Title">Source Title</cite>
                                             </footer>
-                                        </blockquote>
+                                        </blockquote> -->
+
                                     </div>
                                     <div class="tab-pane fade" id="addinfo">
                                         <p>
@@ -149,37 +150,37 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="box-title">
-                            <h2>RELATED PRODUCTS</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3 col-xs-6">
-                        <div class="product-block">
-                            <div class="product-image">
-                                <a href="javascript:;">
-                                    <figure class="product-display">
-                                        <img alt="" class=" product-mainpic" src="images/product-4.jpg" style="display: block;">
-                                        <img src="images/product-4-h.jpg" alt="" class="product-secondpic">
-                                    </figure>
-                                </a>
-                            </div>
-                            <div class="product-meta">
-                                <div class="product-action">
-                                    <a href="javascript:;" class="addcart">
-                                        <i class="icon-basket"></i>
+                <!-- <div class="row">
+                                      <div class="col-md-12">
+                                        <div class="box-title">
+                                          <h2>RELATED PRODUCTS</h2>
+                                        </div>
+                                      </div>
+                                </div>
+                              <div class="row">
+                                <div class="col-md-3 col-xs-6">
+                                  <div class="product-block">
+                                    <div class="product-image">
+                                      <a href="javascript:;">
+                                        <figure class="product-display">
+                                          <img alt="" class=" product-mainpic" src="images/product-4.jpg" style="display: block;">
+                                          <img src="images/product-4-h.jpg" alt="" class="product-secondpic">
+                                        </figure>
+                                      </a>
+                                    </div>
+                                    <div class="product-meta">
+                                      <div class="product-action">
+                                        <a href="javascript:;" class="addcart">
+                                          <i class="icon-basket"></i>
                                         Add to cart
                                     </a>
                                     <!--
-                                    -->
+                                    --
                                     <a href="javascript:;" class="wishlist">
                                         <i class="fa fa-heart"></i>
                                     </a>
                                     <!--
-                                    -->
+                                    --
                                     <a href="javascript:;" class="compare">
                                         <i class="fa fa-retweet"></i>
                                     </a>
@@ -221,12 +222,12 @@
                                         Add to cart
                                     </a>
                                     <!--
-                                    -->
+                                    --
                                     <a href="javascript:;" class="wishlist">
                                         <i class="fa fa-heart"></i>
                                     </a>
                                     <!--
-                                    -->
+                                    --
                                     <a href="javascript:;" class="compare">
                                         <i class="fa fa-retweet"></i>
                                     </a>
@@ -265,12 +266,12 @@
                                         Add to cart
                                     </a>
                                     <!--
-                                    -->
+                                    --
                                     <a href="javascript:;" class="wishlist">
                                         <i class="fa fa-heart"></i>
                                     </a>
                                     <!--
-                                    -->
+                                    --
                                     <a href="javascript:;" class="compare">
                                         <i class="fa fa-retweet"></i>
                                     </a>
@@ -313,12 +314,12 @@
                                         Add to cart
                                     </a>
                                     <!--
-                                    -->
+                                    --
                                     <a href="javascript:;" class="wishlist">
                                         <i class="fa fa-heart"></i>
                                     </a>
                                     <!--
-                                    -->
+                                    --
                                     <a href="javascript:;" class="compare">
                                         <i class="fa fa-retweet"></i>
                                     </a>
