@@ -3,6 +3,24 @@
   "title": "Graeme's Garden Nursery",
 	"name": "Graeme's Garden Nursery",
 	"caption": "The UK's Premier New Variety Specialist Nursery",
+  "sliders":
+  [
+    {
+      "image": "images/top-slider/slide_1.jpg",
+      "text": "Plants",
+      "desc": "This is full text 1"
+    },
+    {
+      "image": "images/top-slider/slide_2.jpg",
+      "text": "Plants",
+      "desc": "This is full text 2 "
+    },
+    {
+      "image": "images/top-slider/slide_3.jpg",
+      "text": "Plants",
+      "desc": "This is full text 3 "
+    }
+  ],
 	"subcategories":
 	[
 	{
