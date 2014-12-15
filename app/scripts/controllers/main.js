@@ -8,13 +8,12 @@ tmwControllers.controller('tmwHeaderCtrl', ['$scope', 'Category',
   function($scope, Category) {
     $scope.header = Category.get({categoryId: 'header'}, function(category) {
       //$scope.mainImageUrl = category.images[0];
+      $scope.myInterval = 5000;
+      $scope.slides = [];
+      $scope.slides.push($scope.header.sliders[0]);
+      $scope.slides.push($scope.header.sliders[1]);
+      $scope.slides.push($scope.header.sliders[2]);
     });
-
-    $scope.myInterval = 5000;
-    var slides = $scope.slides = [];
-    slides.push($scope.header.slides[0]);
-    slides.push($scope.header.slides[1]);
-    slides.push($scope.header.slides[2]);
 
   }]);
 
