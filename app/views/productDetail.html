@@ -5,16 +5,18 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="content-box">
+
                             <!-- Begin Img Thumbnail -->
-                            <div class="sp-wrap">
-                                <a href=#>
-                                    <img src="{{product.image1}}" class="img-responsive" alt="">
-                                </a>
-                                <a href=#>
-                                    <img src="{{product.image2}}" class="img-responsive" alt="">
-                                </a>
-                            </div>
+                          <div class="sp-wrap">
+                            <a href="images/ggn/Agastache/BlueboaLarge.jpg">
+                              <img src="images/ggn/Agastache/BlueboaLarge.jpg" alt="">
+                            </a>
+                            <a ng-href="images/ggn/Agastache/BlueboaLarge2.jpg">
+                              <img src="images/ggn/Agastache/BlueboaLarge2.jpg" alt="">
+                            </a>
+                          </div>
                             <!-- end Img Thumbnail -->
+
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -24,11 +26,11 @@
                                 <ul class="product-breadcrumb">
                                     <li><a href="javscript:;">Home</a>
                                     </li>
-                                    <li><a href="javscript:;">Perennials</a>
+                                    <li><a href="javscript:;">{{product.plantType}}</a>
                                     </li>
-                                    <li><a href="javscript:;">Agastache</a> <!-- With angular we could use a UI to change these to relevant plantType & plantCategory?-->
+                                    <li><a href="javscript:;">{{product.plantCategory}}</a> <!-- With angular we could use a UI to change these to relevant plantType & plantCategory?-->
                                     </li>
-                                    <li><a href="javscript:;">Blue Boa</a>
+                                    <li><a href="javscript:;">{{product.plantVariety}}</a>
                                     </li>
                                     <li class="current"><a href="javscript:;">{{product.title}}</a>
                                     </li>
