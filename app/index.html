@@ -148,14 +148,6 @@
     <!-- JS For Menjual -->
     <script src="scripts/main.js"></script>
 
-    <script src="scripts/smoothproducts.js"></script>
-
-    <script type=text/javascript>
-
-  $(window).load(function() {
-// SMOOTH PRODUCT
-    $('.sp-wrap').smoothproducts();
-  })
 
 	  <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
@@ -169,6 +161,16 @@
     <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
+    <script src="scripts/smoothproducts.js"></script>
+
+    <script type=text/javascript>
+
+      $(window).load(function() {
+    // SMOOTH PRODUCT
+        $('.sp-wrap').smoothproducts();
+      })
+    </script>
+
 
      <!-- build:js({.tmp,app}) scripts/scripts.js -->
      <script src="scripts/app.js"></script>
