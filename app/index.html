@@ -10,8 +10,12 @@
 
     <title>{{header.title}}</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- build:css(.) styles/vendor.css -->
+  <!-- bower:css -->
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+  <!-- endbower -->
+  <!-- endbuild -->
+
     <!-- Font Awesome CSS -->
     <link href="styles/lib/font-awesome.css" rel="stylesheet">
 
@@ -20,16 +24,16 @@
 
     <!-- Animated CSS-->
     <link href="styles/lib/animate.css" rel="stylesheet">
-    <!-- OWL CSS-->
-    <link href="bower_components/owl.carousel/dist/assets/owl.carousel.css" rel="stylesheet">
-    <link href="bower_components/owl.carousel/dist/assets/owl.theme.css" rel="stylesheet">
     <!-- Costumize Font C.SS -->
     <link href="styles/lib/costumizefont.css" rel="stylesheet" type="text/css">
     <!-- Smooth CSS -->
     <link href="styles/lib/smoothproducts.css" rel="stylesheet">
 
+    <!-- build:css(.tmp) styles/styles.css -->
     <!-- STYLE CSS -->
     <link href="styles/style.css" rel="stylesheet">
+    <!-- endbuild -->
+
     <!-- Color Scheme CSS -->
     <link href="styles/scheme/green.css" rel="stylesheet">
 
@@ -140,13 +144,6 @@
     </div>
     <!--      -->
     <!-- END OUTER -->
-    <!-- Waypoints JS
-    <script src="js/lib/waypoints.min.js"></script>
-    -->
-    <!-- OWL JS -->
-    <script src="bower_components/owl.carousel/dist/owl.carousel.min.js"></script>
-    <!-- JS For Menjual -->
-    <script src="scripts/main.js"></script>
 
 
 	  <!-- build:js(.) scripts/vendor.js -->
@@ -167,7 +164,7 @@
      <!-- build:js({.tmp,app}) scripts/scripts.js -->
      <script src="scripts/app.js"></script>
      <script src="scripts/controllers/main.js"></script>
-	 <script src="scripts/services/services.js"></script>
+     <script src="scripts/services/services.js"></script>
 
      <!-- endbuild -->
 
