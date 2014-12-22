@@ -10,7 +10,26 @@
         <section class="content-wrapper">
             <div class="container">
                 <div class="row">
+
                     <div class="col-md-7">
+
+                      <div class="product-meta">
+                        <h1 class="product-title">{{product.title}}</h1>
+                        <ul class="product-breadcrumb">
+                          <li><a href="javscript:;">Home</a>
+                          </li>
+                          <li><a href="javscript:;">{{product.plantType}}</a>
+                          </li>
+                          <li><a href="javscript:;">{{product.plantCategory}}</a> <!-- With angular we could use a UI to change these to relevant plantType & plantCategory?-->
+                          </li>
+                          <li><a href="javscript:;">{{product.plantVariety}}</a>
+                          </li>
+                          <li class="current"><a href="javscript:;">{{product.title}}</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      
                         <div class="content-box">
 
                             <!-- Begin Img Thumbnail -->
@@ -28,21 +47,7 @@
                     </div>
                     <div class="col-md-5">
                         <div class="content-box">
-                            <div class="product-meta">
-                                <h1 class="product-title">{{product.title}}</h1>
-                                <ul class="product-breadcrumb">
-                                    <li><a href="javscript:;">Home</a>
-                                    </li>
-                                    <li><a href="javscript:;">{{product.plantType}}</a>
-                                    </li>
-                                    <li><a href="javscript:;">{{product.plantCategory}}</a> <!-- With angular we could use a UI to change these to relevant plantType & plantCategory?-->
-                                    </li>
-                                    <li><a href="javscript:;">{{product.plantVariety}}</a>
-                                    </li>
-                                    <li class="current"><a href="javscript:;">{{product.title}}</a>
-                                    </li>
-                                </ul>
-                            </div>
+
                             <div class="product-desc">
                               <tabset>
                                 <tab heading="Description">
