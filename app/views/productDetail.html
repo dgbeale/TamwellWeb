@@ -14,36 +14,20 @@
                     <div class="col-md-7">
 
                       <div class="product-meta">
-                        <h1 class="product-title">{{product.title}}</h1>
-                        <ul class="product-breadcrumb">
-                          <li><a href="javscript:;">Home</a>
-                          </li>
-                          <li><a href="javscript:;">{{product.plantType}}</a>
-                          </li>
-                          <li><a href="javscript:;">{{product.plantCategory}}</a> <!-- With angular we could use a UI to change these to relevant plantType & plantCategory?-->
-                          </li>
-                          <li><a href="javscript:;">{{product.plantVariety}}</a>
-                          </li>
-                          <li class="current"><a href="javscript:;">{{product.title}}</a>
-                          </li>
-                        </ul>
+                        <h1 class="product-title">{{product.name}}</h1>
                       </div>
-
-                      
-                        <div class="content-box">
 
                             <!-- Begin Img Thumbnail -->
                           <div class="sp-wrap">
-                            <a ng-href="images/ggn/Agastache/BlueboaLarge.jpg">
-                              <img src="images/ggn/Agastache/BlueboaLarge.jpg" alt="">
+                            <a ng-href="{{product.image1}}">
+                              <img ng-src="{{product.image1}}" alt="">
                             </a>
-                            <a ng-href="images/ggn/Agastache/BlueboaLarge2.jpg">
-                              <img src="images/ggn/Agastache/BlueboaLarge2.jpg" alt="">
+                            <a ng-href="{{product.image2}}">
+                              <img ng-src="{{product.image2}}" alt="">
                             </a>
                           </div>
                             <!-- end Img Thumbnail -->
 
-                        </div>
                     </div>
                     <div class="col-md-5">
                         <div class="content-box">

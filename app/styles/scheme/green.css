@@ -81,7 +81,7 @@ small {
   color: #121212;
 }
 .product-block .product-name:hover {
-  color: #cccccc;
+  color: #000;
 }
 .product-block .product-rating {
   border-top: 1px solid #ededed;

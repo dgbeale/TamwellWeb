@@ -1,5 +1,5 @@
 <!DOCTYPE html >
-<html lang="en" ng-app="tmwApp" ng-controller="tmwHeaderCtrl">
+<html lang="en" ng-app="tmwApp" ng-controller="tmwHeaderCtrl" ng-cloak>
 
 <head>
     <meta charset="utf-8">
@@ -29,6 +29,9 @@
     <!-- Smooth CSS -->
     <link href="styles/lib/smoothproducts.css" rel="stylesheet">
 
+   <link href="styles/lib/font-awesome.css" rel="stylesheet">
+
+  <link href="styles/lib/social-buttons.css" rel="stylesheet">
     <!-- build:css(.tmp) styles/styles.css -->
     <!-- STYLE CSS -->
     <link href="styles/style.css" rel="stylesheet">
@@ -57,13 +60,13 @@
                   <div class="col-sm-4">
                         <div class="sitelogo-block">
                             <div class="logo2">
-                                <a href="javascript:;">
+                                <a href="#/home">
                                     <img src="images/ggn-logo.jpg" alt="">
                                 </a>
                               </div>
                          </div>
                     </div>
-                    <div class="col-sm-8">
+                    <div class="col-sm-5">
                       <div class="sitelogo-block">
 
                             <div class="titledesc">
@@ -71,6 +74,12 @@
                             </div>
                       </div>
                     </div>
+                  <div class="col-sm-3">
+                    <div class="social-block">
+                      <button class="btn btn-large btn-twitter"><i class="fa fa-twitter"></i> | Twitter </button>
+                      <button class="btn btn-large btn-facebook"><i class="fa fa-facebook"></i> | Facebook </button>
+                    </div>
+                  </div>
 
                 </div>
             </div>
@@ -121,7 +130,24 @@
         </section>
         <!-- END NAVIGATION -->
 
-		<div ng-view></div>
+      <div class="container">
+        <div ng-show="header.showBreadcrumb" class="col-md-12">
+
+          <div class="row" >
+            <div>
+              <ol class="ab-nav breadcrumb">
+                <li ng-repeat="breadcrumb in breadcrumbs.get() track by breadcrumb.path" ng-class="{ active: $last }">
+                  <a ng-if="!$last" ng-href="#{{ breadcrumb.path }}" ng-bind="breadcrumb.label" class="margin-right-xs"></a>
+                  <span ng-if="$last" ng-bind="breadcrumb.label"></span>
+                </li>
+              </ol>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+		    <div ng-view></div>
 
         <!-- BEGIN  TOP SLIDER -->
 
@@ -156,6 +182,8 @@
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="bower_components/ng-breadcrumbs/dist/ng-breadcrumbs.js"></script>
+
     <!-- endbower -->
     <!-- endbuild -->
     <script src="scripts/smoothproducts.js"></script>
