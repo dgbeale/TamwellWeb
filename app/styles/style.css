@@ -1210,7 +1210,7 @@ small {
 }
 /* ============ CONTENT PART =========== */
  .row:first-child .content-box {
-    margin-top: 40px;
+    margin-top: 60px;
 }
 .content-box {
     margin-top: 10px;
