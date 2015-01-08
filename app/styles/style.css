@@ -328,8 +328,8 @@ small {
 }
 .product-block:hover .product-meta .product-action {
     bottom: 0;
-    opacity: 0.5;
-    background: #F4F4F4;
+    opacity: 0;
+    background: #CCC;
 
 }
 .product-block .product-action a {
@@ -508,6 +508,14 @@ small {
     font-size: 24px;
     margin-bottom: 3px;
 }
+
+.header .social-block {
+  position: relative;
+  margin-top: 25px;
+  float: left;
+  margin-left: 55px;
+}
+
 .titledesc {
   margin-top: 40px;
   font-weight: 800;
