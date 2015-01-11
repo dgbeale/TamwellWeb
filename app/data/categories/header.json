@@ -29,8 +29,8 @@
       [
         {
           "name": "About Us",
-          "id": "about",
-          "view": "about.html"
+          "id": "about"
+
         },
         {
           "name": "Find Us",
