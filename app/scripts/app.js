@@ -17,6 +17,9 @@ $routeProvider.
 		templateUrl: 'views/home.html',
 		label: 'Home'
 	}).
+  when('/category/about', {
+    templateUrl: 'views/about.html'
+  }).
   when('/category/:categoryId', {
     templateUrl: 'views/category.html',
     controller: 'tmwCategoryCtrl'
@@ -25,10 +28,7 @@ $routeProvider.
     templateUrl: 'views/productDetail.html',
     controller: 'tmwProductCtrl'
   }).
-  when('/about', {
-    templateUrl: 'views/about.html'
-  }).
-  otherwise({
+    otherwise({
     redirectTo: '/'
   });
 
