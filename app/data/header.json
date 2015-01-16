@@ -1,0 +1,116 @@
+{
+  "id": "header",
+  "title": "Graeme's Garden Nursery",
+	"name": "Graeme's Garden Nursery",
+	"caption": "The only New Varieties Specialist in the UK",
+  "sliders":
+  [
+    {
+      "image": "images/top-slider/slide_1.jpg",
+      "text": "New Varieties",
+      "desc": "View our unique range of new hardy Perennials"
+    },
+    {
+      "image": "images/top-slider/slide_2.jpg",
+      "text": "Bright, Beautiful Colours",
+      "desc": "Brighten up your garden with our warm and vibrant collections"
+    },
+    {
+      "image": "images/top-slider/slide_3.jpg",
+      "text": "A Plant for every Occasion",
+      "desc": "We have many, many plant varieties; new and old"
+    }
+  ],
+	"subcategories":
+	[
+	{
+		"name": "About Us",
+    "subcategories":
+      [
+        {
+          "name": "About Us",
+          "id": "about"
+
+        },
+        {
+          "name": "Find Us",
+          "id": "findus"
+        },
+        {
+          "name": "Contact Us",
+          "id": "contactus"
+        }
+      ]
+	},
+	{
+		"name": "Plants",
+		"subcategories":
+		[
+			{
+				"name":"Annual Bedding",
+				"id":"annualbedding"
+			},
+			{
+				"name":"Perennials",
+				"id":"perennials"
+			},
+			{
+				"name":"Shrubs",
+				"id":"shrubs"
+			},
+			{
+				"name":"Grasses",
+				"id":"grasses"
+			}
+		]
+	},
+	{
+		"name": "Basket Plants"
+
+	},
+	{
+		"name": "Vegetables",
+    "subcategories":
+    [
+      {
+        "name":"Tomatoes",
+        "id":"tomatoes"
+      },
+      {
+        "name":"Chillis",
+        "id":"chillis"
+      }
+    ]
+	},
+	{
+		"name": "Seeds"
+	},
+	{
+		"name": "Growing Essentials"
+	},
+	{
+		"name": "Gardening Advice"
+	}
+	],
+  "promotions" :
+   [
+     {
+       "text": "This is a promotion 1 ",
+       "title": "This is a tile",
+       "image":  "images/banner-top-1.jpg",
+       "alt": "This is alt text "
+     },
+     {
+       "text": "This is a promotion 2 ",
+       "title": "This is a tile",
+       "image":  "images/banner-top-2.jpg",
+       "alt": "This is alt text "
+     },
+     {
+       "text": "This is a promotion 3 ",
+       "title": "This is a tile",
+       "image":  "images/banner-top-3.jpg",
+       "alt": "This is alt text "
+     }
+   ]
+}
