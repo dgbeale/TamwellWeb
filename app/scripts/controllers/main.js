@@ -29,6 +29,8 @@ tmwControllers.controller('tmwHeaderCtrl', ['$scope', 'Category','breadcrumbs',
     $scope.category = Category.get({categoryId: $routeParams.categoryId}, function(category) {
      // $scope.mainImageUrl = phone.images[0];
       $scope.header.showBreadcrumb=true;
+      $scope.category.thumbnail = "images/ggn/Agastache/BlueBoa.jpg";
+
 	 });
   }]);
 
@@ -37,6 +39,10 @@ tmwControllers.controller('tmwHeaderCtrl', ['$scope', 'Category','breadcrumbs',
     $scope.product = Product.get({productId: $routeParams.productId}, function(product) {
       // $scope.mainImageUrl = phone.images[0];
       $scope.header.showBreadcrumb=true;
+      $scope.product.image1 = "images/ggn/Agastache_Raspberry_Summer_4b.jpg";
+      $scope.product.image2 = "images/ggn/Agastache_Raspberry_Summer_6b.jpg";
+      $scope.product.image3 = "images/ggn/Agastache_Raspberry_Summer_7b.jpg";
+      $scope.product.image4 = "images/ggn/Agastache_Summer_Fiesta_1b.jpg";
     });
   }]);
 
