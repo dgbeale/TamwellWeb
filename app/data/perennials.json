@@ -1,12 +1,11 @@
 {
   "id": "perennials",
-  "name": "",
+  "parent": "",
+  "name": "Perennials",
   "longName": "",
   "description": "",
   "thumbnail": "",
-  "image1": "",
-  "image2": "",
-  "image3": "",
+  "images": [],
   "price": "",
   "unit": "",
   "soil": "",
@@ -18,7 +17,7 @@
   "children": [
     {
       "id": "agastache",
-      "thumbnail": "",
+      "thumbnail": "images/ggn/thumbnail/Agastache_Kudos_Silver_Blue_1b.jpg",
       "name": "Agastache",
       "type": "category"
     },
@@ -30,7 +29,7 @@
     },
     {
       "id": "bergenia",
-      "thumbnail": "",
+      "thumbnail": "images/ggn/thumbnail/Bergenia_Spring_Fling_1b.jpg",
       "name": "BERGENIA",
       "type": "category"
     },
@@ -48,7 +47,7 @@
     },
     {
       "id": "echinacea",
-      "thumbnail": "",
+      "thumbnail": "images/ggn/thumbnail/Echinacea_Tomato_Soup_1b.jpg",
       "name": "ECHINACEA",
       "type": "category"
     },
@@ -72,19 +71,19 @@
     },
     {
       "id": "heuchera",
-      "thumbnail": "",
+      "thumbnail": "images/ggn/thumbnail/Heuchera_Zipper_1b.jpg",
       "name": "HEUCHERA",
       "type": "category"
     },
     {
       "id": "heucherella",
-      "thumbnail": "",
+      "thumbnail": "images/ggn/thumbnail/Heucherella_Tapestry_1b.jpg",
       "name": "HEUCHERELLA",
       "type": "category"
     },
     {
       "id": "kniphofia",
-      "thumbnail": "",
+      "thumbnail": "images/ggn/thumbnail/Kniphofia_Papaya_Popsicle_1b.jpg",
       "name": "KNIPHOFIA",
       "type": "category"
     },
@@ -102,13 +101,13 @@
     },
     {
       "id": "mukdenia",
-      "thumbnail": "",
+      "thumbnail": "images/ggn/thumbnail/Mukdenia_Crimson_Fans_1b.jpg",
       "name": "MUKDENIA",
       "type": "category"
     },
     {
       "id": "penstemon",
-      "thumbnail": "",
+      "thumbnail": "images/ggn/thumbnail/Penstemon_Strawberry_Taffy_1b.jpg",
       "name": "PENSTEMON",
       "type": "category"
     },
