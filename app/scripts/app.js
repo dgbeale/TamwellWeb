@@ -20,6 +20,9 @@ $routeProvider.
   when('/category/about', {
     templateUrl: 'views/about.html'
   }).
+  when('/category/findus', {
+    templateUrl: 'views/findus.html'
+  }).
   when('/category/:categoryId', {
     templateUrl: 'views/category.html',
     controller: 'tmwCategoryCtrl'
