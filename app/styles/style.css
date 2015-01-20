@@ -1248,9 +1248,15 @@ small {
   padding-bottom: 220px;
   color: #666;
   border: solid #000000 1px;
-
-
 }
+
+.ImageBorder {
+  border: 1px;
+  border-color: Black;
+}
+
+
+
 /* ===== ABOUT PAGES ======== */
  .slide-about-people {
     position: relative;
