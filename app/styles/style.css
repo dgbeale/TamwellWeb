@@ -1235,6 +1235,22 @@ small {
     margin-top: 10px;
     margin-bottom: 15px;
 }
+
+.content-about {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.text-box {
+  margin-top: 20px;
+  padding-top: 10px;
+  text-align: center;
+  padding-bottom: 220px;
+  color: #666;
+  border: solid #000000 1px;
+
+
+}
 /* ===== ABOUT PAGES ======== */
  .slide-about-people {
     position: relative;

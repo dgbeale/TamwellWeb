@@ -36,18 +36,15 @@
     "subcategories":
       [
         {
-          "name": "About Us",
+          "name": "About",
           "id": "about"
 
         },
         {
-          "name": "Find Us",
+          "name": "Find & Contact us",
           "id": "findus"
-        },
-        {
-          "name": "Contact Us",
-          "id": "contactus"
         }
+
       ]
 	},
 	{
