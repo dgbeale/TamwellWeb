@@ -160,7 +160,7 @@ small {
 .navigation .navbar-default {
   background: #ffffff;
   border-top: 1px solid #ededed;
-  border-bottom: 3px solid #454545;
+  border-bottom: 1px solid #ededed;
 }
 .navigation .navbar-default .nav > li {
   border-right: 1px solid #ededed;
@@ -169,7 +169,7 @@ small {
   border-left: 1px solid #ededed;
 }
 .navigation .navbar-default .navbar-nav > li > a {
-  color: #cccccc;
+  color: #525252;
 }
 .navigation .navbar-default .navbar-nav > li > a:hover {
   color: #000000;
