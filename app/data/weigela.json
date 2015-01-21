@@ -1,1 +1,25 @@
-{"id":"weigela","parent":"annualbedding","name":"WEIGELA","longName":"","description":"","thumbnail":"","images":[],"price":"","unit":"","soil":"","growthRate":"","growingSeason":"","floweringSeason":"","bloomTime":"","comments":"","children":[{"id":"monet","thumbnail":"","name":"Monet","type":"product"}]}
+{
+  "id": "weigela",
+  "parent": "shrubs",
+  "name": "WEIGELA",
+  "longName": "",
+  "description": "",
+  "thumbnail": "",
+  "images": [],
+  "price": "",
+  "unit": "",
+  "soil": "",
+  "growthRate": "",
+  "growingSeason": "",
+  "floweringSeason": "",
+  "bloomTime": "",
+  "comments": "",
+  "children": [
+    {
+      "id": "monet",
+      "thumbnail": "",
+      "name": "Monet",
+      "type": "product"
+    }
+  ]
+}
