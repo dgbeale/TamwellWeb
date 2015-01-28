@@ -131,10 +131,10 @@ small {
   box-shadow: inset 0px -3px 0px -2px rgba(255, 255, 255, 0.25);
 }
 .header .sitelogo-block .titledesc {
-  color: #cccccc;
+  color: #000000;
 }
 .header .sitelogo-block .titledesc h1 {
-  color: #aca793;
+  color: #000000;
 }
 .header .topinfo-block form {
   border: 1px solid #cccccc;

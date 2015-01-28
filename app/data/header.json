@@ -3,12 +3,19 @@
   "title": "Graeme's Garden Nursery",
   "name": "Graeme's Garden Nursery",
   "caption": "The only New Varieties Specialist in the UK",
-  "phone": "0118 0118 0118 0118",
+  "phone": "0118 0118 0118",
   "email": "joebloggs@gmail.com",
   "address":"99 Noodle street, United Kingdom",
   "postcode":"RG5ABC",
   "location": "Here will be a link to google maps image",
   "aboutText": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  "footer": "Tamwell Web",
+  "footerLink":"www.google.com",
+  "footer2":"Terra Nova® Nurseries, Inc.",
+  "footerLink2":"www.google.com",
+
+
+
   "sliders":
   [
 
@@ -25,7 +32,7 @@
     {
       "image": "images/top-slider/slide_3.jpg",
       "text": "A Plant for every Occasion",
-      "desc": "We have many, many plant varieties; new and old"
+      "desc": "We have many plant varieties; new and old"
     }
   ],
 
@@ -107,20 +114,20 @@
    [
      {
        "text": "This is a promotion 1 ",
-       "title": "This is a tile",
-       "image":  "images/banner-top-1.jpg",
+       "title": "Promotion no 1",
+       "image":  "images/aeroplane.png",
        "alt": "This is alt text "
      },
      {
        "text": "This is a promotion 2 ",
-       "title": "This is a tile",
-       "image":  "images/banner-top-2.jpg",
+       "title": "Promotion no 2",
+       "image":  "images/aeroplane.png",
        "alt": "This is alt text "
      },
      {
        "text": "This is a promotion 3 ",
-       "title": "This is a tile",
-       "image":  "images/banner-top-3.jpg",
+       "title": "Promotion no 3",
+       "image":  "images/aeroplane.png",
        "alt": "This is alt text "
      }
    ]

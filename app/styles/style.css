@@ -778,7 +778,7 @@ small {
 .topslider .caption {
     position: absolute;
     top:0;
-    padding-top : 19%;
+    padding-top : 13%;
     display: block;
     width: 100%;
     height: 100%;
@@ -788,18 +788,22 @@ small {
     width: 100%;
     position: relative;
     text-align: center;
+
 }
 .topslider .slider-title {
-    font-size: 30px;
+    font-size: 40px;
     color: #FFF;
     display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
 }
 .topslider .slider-desc {
     font-size: 20px;
     width: 50%;
     display: block;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 0px;
     color: #FFF;
 }
 .topslider .slider-button a {
@@ -1209,7 +1213,7 @@ small {
     padding-top: 90px;
     text-align: center;
     padding-bottom: 90px;
-    border-bottom: 10px solid #111;
+    border-bottom: 1px solid #111;
     color: #666;
 }
 .shop-info a {
