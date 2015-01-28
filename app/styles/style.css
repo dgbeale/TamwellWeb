@@ -195,6 +195,14 @@ small {
     content:'';
     display: block;
 }
+.product-image2 {
+  position: relative;
+  widows: 10%;
+  height: 10%;
+  content: '';
+  display: ;
+}
+
 .product-label-special {
     background: none repeat scroll 0 0 #C44569;
     color: #FFF;
