@@ -8,8 +8,36 @@
  *
  * Main module of the application.
  */
-var tmwApp = angular.module('tmwApp', ['ngResource','tmwControllers','tmwServices','ngRoute','ui.bootstrap','ng-breadcrumbs']);
+var tmwApp = angular.module('tmwApp', ['ngResource','tmwControllers','tmwServices','ngRoute','ui.bootstrap','ng-breadcrumbs','ui.router']);
 
+tmwApp.config(function($stateProvider,$urlRouterProvider) {
+
+  $urlRouterProvider.otherwise('/');
+
+
+    $stateProvider
+      .state('about', {
+      templateUrl: 'views/about.html',
+      controller: 'tmwHeaderCtrl'
+    })
+      .state('home', {
+      url:'/',
+      templateUrl: 'views/home.html',
+      controller: 'tmwHeaderCtrl'
+    })
+      .state('category', {
+      url: '/category/:category',
+      templateUrl: 'views/category.html',
+      controller: 'tmwCategoryCtrl'
+    })
+      .state('product', {
+      url:'/product/:product',
+      templateUrl: 'views/productDetail.html',
+      controller: 'tmwProductCtrl'
+      });
+});
+
+/*
 tmwApp.config(['$routeProvider',
 function($routeProvider) {
 $routeProvider.
@@ -36,3 +64,4 @@ $routeProvider.
   });
 
 }]);
+*/

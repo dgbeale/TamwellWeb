@@ -4,12 +4,16 @@
 
 var tmwControllers = angular.module('tmwControllers', []);
 
-tmwControllers.controller('tmwHeaderCtrl', ['$scope', 'Category','breadcrumbs',
-  function($scope, Category,breadcrumbs) {
+tmwControllers.controller('tmwHeaderCtrl', ['$scope', 'Category','$stateParams','breadcrumbs',
+  function($scope,Category,$stateParams,breadcrumbs) {
     $scope.breadcrumbs = breadcrumbs;
-    $scope.header = Category.get({categoryId: 'header'}, function(category) {
+    $scope.category = $stateParams.category;
+
+    $scope.header = Category.get({category: 'header'}, function(cat) {
       //$scope.mainImageUrl = category.images[0];
       $scope.myInterval = 5000;
+      console.log(" HEADER " + $scope.header.name );
+
       $scope.slides = [];
       $scope.slides.push($scope.header.sliders[0]);
       $scope.slides.push($scope.header.sliders[1]);
@@ -24,15 +28,16 @@ tmwControllers.controller('tmwHeaderCtrl', ['$scope', 'Category','breadcrumbs',
 
   }]);
 
- tmwControllers.controller('tmwCategoryCtrl', ['$scope', '$routeParams','Category',
-  function($scope, $routeParams, Category) {
-    $scope.category = Category.get({categoryId: $routeParams.categoryId}, function(category) {
+ tmwControllers.controller('tmwCategoryCtrl', ['$scope','$stateParams','Category',
+  function($scope, $stateParams,Category) {
+    $scope.category = $stateParams.category;
+    $scope.cat = Category.get({category: $scope.category}, function(category) {
      // $scope.mainImageUrl = phone.images[0];
       $scope.header.showBreadcrumb=true;
-      if ($scope.category.thumbnail == "") {
-        $scope.category.thumbnail = "images/ggn/thumbnail/default.jpg";
+      if ($scope.cat.thumbnail == "") {
+        $scope.cat.thumbnail = "images/ggn/thumbnail/default.jpg";
       }
-      $scope.category.children.forEach(function(child) {
+      $scope.cat.children.forEach(function(child) {
         if (child.thumbnail == "") {
           child.thumbnail = "images/ggn/thumbnail/default.jpg";
         }
@@ -41,14 +46,16 @@ tmwControllers.controller('tmwHeaderCtrl', ['$scope', 'Category','breadcrumbs',
 	 });
   }]);
 
-   tmwControllers.controller('tmwProductCtrl', ['$scope', '$routeParams','Product',
-  function($scope, $routeParams, Product) {
-    $scope.product = Product.get({productId: $routeParams.productId}, function(product) {
+   tmwControllers.controller('tmwProductCtrl', ['$scope','$stateParams','Product',
+  function($scope, $stateParams, Product) {
+    $scope.product = $stateParams.product;
+    console.log("product " + $scope.product);
+    $scope.prod = Product.get({product: $scope.product}, function(product) {
       // $scope.mainImageUrl = phone.images[0];
       $scope.header.showBreadcrumb=true;
-      if ( $scope.product.images.length == 0)
+      if ( $scope.prod.images.length == 0)
       {
-        $scope.product.images.push("images/ggn/large/default.jpg");
+        $scope.prod.images.push("images/ggn/large/default.jpg");
       }
 
     });

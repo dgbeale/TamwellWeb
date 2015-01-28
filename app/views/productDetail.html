@@ -14,13 +14,13 @@
                     <div class="col-md-7">
 
                       <div class="product-meta">
-                        <h1 class="product-title">{{product.name}}</h1>
+                        <h1 class="product-title">{{prod.name}}</h1>
                       </div>
 
                             <!-- Begin Img Thumbnail -->
                           <div class="sp-wrap">
-                            <a ng-href="{{product.images[0]}}">
-                              <img ng-src="{{product.images[0]}}" alt="">
+                            <a ng-href="{{prod.images[0]}}">
+                              <img ng-src="{{prod.images[0]}}" alt="">
                             </a>
                           </div>
                             <!-- end Img Thumbnail -->
@@ -36,8 +36,7 @@
                                     <strong>Item Description</strong>
                                   </p>
                                   <hr/>
-                                  <p>{{product.description}}</p>
-
+                                  <p>{{prod.description}}</p>
 
 
                                   <!--- <strong>Soil:</strong>
@@ -56,26 +55,20 @@
                                   <hr/>
 
 
-
-
-
-
-
-
                                   <strong>Growth Rate:</strong>
-                                  <p>{{product.growthRate}}</p>
+                                  <p>{{prod.growthRate}}</p>
 
                                   <strong>Most active growing season:</strong>
-                                  <p>{{product.growingSeason}}</p>
+                                  <p>{{prod.growingSeason}}</p>
 
                                   <strong>Flowering season:</strong>
-                                  <p> {{product.floweringSeason}}</p>
+                                  <p> {{prod.floweringSeason}}</p>
 
                                   <strong>Flowering Months:</strong>
-                                  <p>{{product.bloomTime}}</p>
+                                  <p>{{prod.bloomTime}}</p>
 
                                   <strong>Comments</strong>
-                                  <p>{{product.comments}}</p>
+                                  <p>{{prod.comments}}</p>
 
                                 </tab>
                              </tabset>
