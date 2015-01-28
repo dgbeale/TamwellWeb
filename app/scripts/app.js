@@ -17,9 +17,13 @@ tmwApp.config(function($stateProvider,$urlRouterProvider) {
 
     $stateProvider
       .state('about', {
-      templateUrl: 'views/about.html',
-      controller: 'tmwHeaderCtrl'
-    })
+      url:'/category/about',
+      templateUrl: 'views/about.html'
+     })
+      .state('findus', {
+        url:'/category/findus',
+        templateUrl: 'views/findus.html'
+      })
       .state('home', {
       url:'/',
       templateUrl: 'views/home.html',
