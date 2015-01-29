@@ -34,6 +34,7 @@ tmwControllers.controller('tmwHeaderCtrl', ['$scope', 'Category','$stateParams',
     $scope.cat = Category.get({category: $scope.category}, function(category) {
      // $scope.mainImageUrl = phone.images[0];
       $scope.header.showBreadcrumb=true;
+
       if ($scope.cat.thumbnail == "") {
         $scope.cat.thumbnail = "images/ggn/thumbnail/default.jpg";
       }
@@ -42,14 +43,15 @@ tmwControllers.controller('tmwHeaderCtrl', ['$scope', 'Category','$stateParams',
           child.thumbnail = "images/ggn/thumbnail/default.jpg";
         }
       });
-
+      $scope.header.breadcrumb = $scope.cat.breadcrumb;
 	 });
+
   }]);
 
    tmwControllers.controller('tmwProductCtrl', ['$scope','$stateParams','Product',
   function($scope, $stateParams, Product) {
     $scope.product = $stateParams.product;
-    console.log("product " + $scope.product);
+
     $scope.prod = Product.get({product: $scope.product}, function(product) {
       // $scope.mainImageUrl = phone.images[0];
       $scope.header.showBreadcrumb=true;
@@ -57,8 +59,9 @@ tmwControllers.controller('tmwHeaderCtrl', ['$scope', 'Category','$stateParams',
       {
         $scope.prod.images.push("images/ggn/large/default.jpg");
       }
-
+      $scope.header.breadcrumb = $scope.prod.breadcrumb;
     });
+
   }]);
 
   tmwControllers.controller('CarouselCtrl', function ($scope) {
