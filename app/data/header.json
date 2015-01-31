@@ -10,20 +10,12 @@
   "location": "Here will be a link to google maps image",
   "aboutText": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   "footer": "Tamwell Web",
-  "footerLink":"www.google.com",
+  "footerLink":"http://www.google.com",
   "footer2":"Terra Nova® Nurseries, Inc.",
-  "footerLink2":"www.google.com",
-
-
+  "footerLink2":"http://www.google.com",
 
   "sliders":
   [
-
- {
-      "image": "images/top-slider/slide_1.jpg",
-      "text": "New Varieties",
-      "desc": "View our unique range of new hardy Perennials"
-    },
     {
       "image": "images/top-slider/slide_2.jpg",
       "text": "Bright, Beautiful Colours",
@@ -113,22 +105,26 @@
   "promotions" :
    [
      {
-       "text": "This is a promotion 1 ",
+       "text": "Kniphofia Range ",
        "title": "Promotion no 1",
-       "image":  "images/aeroplane.png",
-       "alt": "This is alt text "
+       "image":  "images/ggn/promo1.jpg",
+       "alt": "Kniphofia",
+       "link": "/#/category/kniphofia"
      },
      {
-       "text": "This is a promotion 2 ",
+       "text": "Blue Boa",
        "title": "Promotion no 2",
-       "image":  "images/aeroplane.png",
-       "alt": "This is alt text "
+       "image":  "images/ggn/promo2.jpg",
+       "alt": "Blue Boa",
+       "link": "/#/product/blueboa"
      },
      {
-       "text": "This is a promotion 3 ",
-       "title": "Promotion no 3",
-       "image":  "images/aeroplane.png",
-       "alt": "This is alt text "
+       "text": "Penstemon Range",
+       "title": "Promotion no 1",
+       "image":  "images/ggn/promo3.jpg",
+       "alt": "Kniphofia",
+       "link": "/#/category/kniphofia"
      }
+
    ]
 }

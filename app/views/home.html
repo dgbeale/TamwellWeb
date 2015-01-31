@@ -2,7 +2,7 @@
   <div class="carousel slide" >
     <carousel interval="myInterval">
       <slide ng-repeat="slide in slides" active="slide.active">
-        <img ng-src="{{slide.image}}" style="margin:auto;">
+        <img ng-src="{{slide.image}}" class="img-responsive" style="margin:auto;">
         <div class="caption">
 			<div class=" slider-title animated fadeInDown delay1">{{slide.text}}</div>
 			<div class="hidden-xs delay2 slider-desc animated fadeIn">{{slide.desc}}</div>
@@ -18,17 +18,17 @@
 <section class="promo">
   <div class="container">
     <div class="row">
-       <div class="col-md-4 hidden-sm hidden-xs" ng-repeat="promotion in header.promotions">
+       <div class="col-md-4 hidden-sm" ng-repeat="promotion in header.promotions">
                         <div class="promo-box">
-                            <a href="javascript:;">
+                            <a href="{{promotion.link}}">
                                 <figure class="promo-img">
-                                    <img src="images/aeroplane.png">
+                                    <img ng-src="{{promotion.image}}">
                                     <span class="promo-block"></span>
                                 </figure>
 
 
                                 <div class="promo-info">
-                                    <h3 class="promo-title">Promo</h3>
+                                    <h3 class="promo-title">{{promotion.text}}</h3>
                                     <p>&bowtie;</p>
                                 </div>
                                 <!--/.promo-info -->

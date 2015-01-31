@@ -11,13 +11,13 @@ tmwControllers.controller('tmwHeaderCtrl', ['$scope', 'Category','$stateParams',
 
     $scope.header = Category.get({category: 'header'}, function(cat) {
       //$scope.mainImageUrl = category.images[0];
-      $scope.myInterval = 5000;
+      $scope.myInterval = 3000;
       console.log(" HEADER " + $scope.header.name );
 
       $scope.slides = [];
       $scope.slides.push($scope.header.sliders[0]);
       $scope.slides.push($scope.header.sliders[1]);
-      $scope.slides.push($scope.header.sliders[2]);
+
     });
 
   }]);
