@@ -113,8 +113,15 @@ small {
     background: #FFF;
 }
 .container{
-    max-width: 100%;
+    max-width: 100%;}
+
+  .newlogo{
+    width:700px;
+    height: auto;
+
 }
+
+
 /* ANIMATION DELAY */
  .delay1 {
     animation-delay: 0.4s;
