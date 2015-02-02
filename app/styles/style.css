@@ -116,8 +116,11 @@ small {
     max-width: 100%;}
 
   .newlogo{
-    width:700px;
+    padding-top: 10px;
+    width:600px;
     height: auto;
+
+
 
 }
 
