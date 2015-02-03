@@ -124,6 +124,13 @@
        "image":  "images/ggn/promo3.jpg",
        "alt": "Kniphofia",
        "link": "/#/category/penstemon"
+     },
+     {
+       "text": "Tangerine Dream",
+       "title": "Promotion no 1",
+       "image":  "images/ggn/promo4.jpg",
+       "alt": "Kniphofia",
+       "link": "/#/product/tangerine"
      }
 
    ]
