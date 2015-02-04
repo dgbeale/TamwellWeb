@@ -17,6 +17,11 @@
   "sliders":
   [
     {
+      "image": "images/top-slider/slide_1.jpg",
+      "text": "New Varieties",
+      "desc": "View our unique range of new hardy Perennials"
+    },
+    {
       "image": "images/top-slider/slide_2.jpg",
       "text": "Bright, Beautiful Colours",
       "desc": "Brighten up your garden with our warm and vibrant collections"
