@@ -20,6 +20,13 @@ tmwApp.config(function($stateProvider,$urlRouterProvider) {
       url:'/category/about',
       templateUrl: 'views/about.html'
      })
+
+
+      .state('blog', {
+        url:'/category/blog',
+        templateUrl: 'views/blog.html'
+      })
+
       .state('findus', {
         url:'/category/findus',
         templateUrl: 'views/findus.html'
@@ -39,12 +46,6 @@ tmwApp.config(function($stateProvider,$urlRouterProvider) {
     templateUrl: 'views/productDetail.html',
     controller: 'tmwProductCtrl'
   })
-
-
-      .state('blog', {
-        url:'/blog',
-        templateUrl: 'views/blog.html'
-      })
 
 
 });
