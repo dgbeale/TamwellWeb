@@ -49,8 +49,8 @@
           "id": "findus"
         }
 
-      ]
-	},
+      ]},
+
 	{
 		"name": "Plants",
 		"subcategories":
@@ -71,8 +71,9 @@
 				"name":"Grasses",
 				"id":"grasses"
 			}
-		]
-	},
+      ]},
+
+
 	{
 		"name": "Basket Plants",
     "subcategories":
@@ -104,9 +105,23 @@
 		"name": "Growing Essentials"
 	},
 	{
-		"name": "Gardening Advice"
-	}
+		"name": "Gardening Advice",
+    "subcategories":
+    [
+      {
+        "name": "Gardening advice",
+        "id": "blog"
+      },
+      { "name": "Gardening advice 2",
+        "id": "blog"
+      }
+    ]
+  }
+
 	],
+
+
+
   "promotions" :
    [
      {

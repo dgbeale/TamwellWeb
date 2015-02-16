@@ -33,12 +33,20 @@ tmwApp.config(function($stateProvider,$urlRouterProvider) {
       url: '/category/:category',
       templateUrl: 'views/category.html',
       controller: 'tmwCategoryCtrl'
-    })
-      .state('product', {
-      url:'/product/:product',
-      templateUrl: 'views/productDetail.html',
-      controller: 'tmwProductCtrl'
-      });
+})
+  .state('product', {
+    url:'/product/:product',
+    templateUrl: 'views/productDetail.html',
+    controller: 'tmwProductCtrl'
+  })
+
+
+      .state('blog', {
+        url:'/blog',
+        templateUrl: 'views/blog.html'
+      })
+
+
 });
 
 /*
