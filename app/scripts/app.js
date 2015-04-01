@@ -4,7 +4,7 @@
  * @ngdoc overview
  * @name TmwApp
  * @description
- * # TmwApp
+ * # TmwApp -
  *
  * Main module of the application.
  */
